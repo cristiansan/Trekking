@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rutasde.trekking.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="124dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="-3dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/linearLayout">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rutas_de_trekkin"
+            android:layout_margin="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+
+    <Button
+        android:background="@drawable/ic_wb_sunny_black_24dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteY="171dp"
+        tools:layout_editor_absoluteX="260dp"
+        android:id="@+id/imageView13"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_alignLeft="@+id/chalten"
+        android:layout_alignStart="@+id/chalten" />
+
+    <Button
+        android:id="@+id/imageView3"
+        android:background="@drawable/ic_feedback_black_24dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="305dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignRight="@+id/chalten"
+        android:layout_alignEnd="@+id/chalten" />
+
+    <Button
+        android:id="@+id/imageView4"
+        android:background="@drawable/ic_settings_black_24dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="305dp"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/imageView5"
+        android:background="@drawable/ic_info_black_24dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="432dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/imageView6"
+        android:background="@drawable/ic_search_black_24dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="432dp"
+        android:layout_above="@+id/imageView3"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_marginBottom="68dp" />
+
+    <Button
+        android:id="@+id/imageView7"
+        android:background="@drawable/ic_place_black_24dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="432dp"
+        android:layout_alignBottom="@+id/chalten"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignStart="@+id/imageView6" />
+
+
+    <Button
+        android:id="@+id/chalten"
+        android:background="@drawable/ic_place_black_24dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="171dp"
+        android:onClick="chalten"
+        android:clickable="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Pronóstico"
+        android:gravity="center"
+        android:layout_below="@+id/imageView13"
+        android:layout_alignLeft="@+id/imageView13"
+        android:layout_alignStart="@+id/imageView13"
+        android:layout_alignRight="@+id/imageView13"
+        android:layout_alignEnd="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Feedback"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Ajustes" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView5"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Acerca de" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView6"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignRight="@+id/imageView6"
+        android:layout_alignStart="@+id/imageView6"
+        android:layout_below="@+id/imageView13"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Buscar Rutas" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/chalten"
+        android:layout_alignLeft="@+id/chalten"
+        android:layout_alignRight="@+id/chalten"
+        android:layout_alignStart="@+id/chalten"
+        android:layout_below="@+id/chalten"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Torres del Paine" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView7"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_alignRight="@+id/imageView7"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_below="@+id/imageView7"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="El Chaltén" />
+
+
+</RelativeLayout>
