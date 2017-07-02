@@ -18,6 +18,9 @@
         <activity android:name=".ChaltenActivity">
 
         </activity>
+        <activity android:name=".TorresActivity">
+
+        </activity>
 
 
     </application>
