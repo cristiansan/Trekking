@@ -30,6 +30,21 @@
         <activity android:name=".TorresActivity">
 
         </activity>
+        <activity android:name=".AcercaActivity">
+
+        </activity>
+        <activity android:name=".AjustesActivity">
+
+        </activity>
+        <activity android:name=".FeedbackActivity">
+
+        </activity>
+        <activity android:name=".PronosticoActivity">
+
+        </activity>
+        <activity android:name=".RutasActivity">
+
+        </activity>
 
 
     </application>

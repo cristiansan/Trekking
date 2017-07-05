@@ -32,4 +32,46 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    public void ajustes (View v)
+    {
+        Intent intent = new Intent(getApplicationContext(), AjustesActivity.class);
+        startActivity(intent);
+
+
+    }
+
+    public void feedback (View v)
+    {
+        Intent intent = new Intent(getApplicationContext(), FeedbackActivity.class);
+        startActivity(intent);
+
+
+    }
+
+    public void pronostico (View v)
+    {
+        Intent intent = new Intent(getApplicationContext(), PronosticoActivity.class);
+        startActivity(intent);
+
+
+    }
+
+    public void rutas (View v)
+    {
+        Intent intent = new Intent(getApplicationContext(), RutasActivity.class);
+        startActivity(intent);
+
+
+    }
+
+    public void acerca (View v)
+    {
+        Intent intent = new Intent(getApplicationContext(), AcercaActivity.class);
+        startActivity(intent);
+
+
+    }
+
+
 }
