@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name"></string>
+    <string name="chalten">
+        Se puede escribir más sobre El Chaltén, algo de historia y capital del trekking.\n\n Estamos dentro del Parque Nacional Los Glaciares. También se pueden poner datos demográficos de la ciudad o del turismo en general
+        como números y esas cosas e incentivar a la gente que haga un uso conciente de los recursos naturales, de la basura y demás bailes.
+        \n\n
+        Se puede poner alguna fecha 2017, como también números como 32.526 km. También se le puede dar un poco de estilo al texto al poner algo que se quiera destacar en negrita o también decir algo que dijo alguien en italica.\n\n
+        Como el ejemplo de arriba se pueden poner links de otras páginas con lo que se abreirá en una ventan nueva del navegador por defecto del propio.
+    </string>
+
+    <string name="torres">
+        Torres del Paine, algo de historia y capital del trekking.\n\n Estamos dentro del Parque Nacional Los Glaciares. También se pueden poner datos demográficos de la ciudad o del turismo en general
+        como números y esas cosas e incentivar a la gente que haga un uso conciente de los recursos naturales, de la basura y demás bailes.
+        \n\n
+        Se puede poner alguna fecha 2017, como también números como 32.526 km. También se le puede dar un poco de estilo al texto al poner algo que se quiera destacar en negrita o también decir algo que dijo alguien en italica.\n\n
+        Como el ejemplo de arriba se pueden poner links de otras páginas con lo que se abreirá en una ventan nueva del navegador por defecto del propio.
+    </string>
 </resources>
